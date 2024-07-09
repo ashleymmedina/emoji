@@ -1,0 +1,74 @@
+.head {
+    /*Positions the head relative to the body*/
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    
+    /*Sets the color of the container and rounds the corners*/
+    background-color: #F2CF66;
+    border-radius: 50%;
+  
+    /*Sets the size of the container*/
+    width: 250px;
+    height: 260px;
+  }
+  
+
+  .eye{
+
+    position: absolute;
+    left: 30%;
+    top: 30%;
+    transform: translate(-50%, -50%);
+
+    background-color: white;
+    border-radius: 50%;
+
+    width: 30px;
+    height: 45px;
+
+  }
+
+  .pupil {
+    position: absolute;
+    left: 50%;
+    top: 60%;
+    transform: translate(-50%, -50%);
+
+    background-color: black;
+    border-radius: 50%;
+
+    width: 25px;
+    height: 30px;
+  }
+
+  .eye2{
+
+    position: absolute;
+    right: 30%;
+    top: 30%;
+    transform: translate(-50%, -50%);
+
+    background-color: white;
+    border-radius: 50%;
+
+    width: 30px;
+    height: 45px;
+
+  }
+
+  .pupil2 {
+    position: absolute;
+    right: 30%;
+    top: 60%;
+    transform: translate(-50%, -50%);
+
+    background-color: black;
+    border-radius: 50%;
+
+    width: 25px;
+    height: 30px;
+  }
+
+  /* write your own CSS rules for the other parts, below! */
